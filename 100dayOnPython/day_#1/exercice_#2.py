@@ -1,0 +1,6 @@
+number1 = int(input("Donner le premier nombre  "))
+number2 = int(input("Donner le deuxième nombre "))
+print(f"La somme est donc {number1 + number2}")
+print(f"La difference est donc {number1 - number2}")
+print(f"Le proiduit est donc {number1 * number2}")
+print(f"Le quatient est donc {number1 / number2}")
