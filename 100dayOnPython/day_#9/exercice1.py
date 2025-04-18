@@ -8,8 +8,10 @@ n = len(myListe)
 milieu = n // 2
 
 if n % 2 == 0:
-     mediane = myListe[milieu]
+      mediane = (myListe[milieu - 1] + myListe[milieu]) / 2
+     
 else:
-     mediane = (myListe[milieu - 1] + myListe[milieu]) / 2
+      mediane = myListe[milieu]
+    
 
 print(f"la mediane est {mediane}")
